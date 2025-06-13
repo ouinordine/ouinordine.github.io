@@ -3,113 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noraldine Aluso Okola</title>
+    <title>Noraldine Aluso OKOLA - Software Developer & IT Support</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="onboarding">
-        <header class="headerst">
-        <!--navigation-->
-        <nav>
-            <ol id="navigation">
-                <li><a href="porteen.html" class="navlinks leftwinglink leftfloat">Portfolio</a></li>
-                <li><a href="blogeng.html" class="navlinks leftfloat">Blogs</a></li>
-                <li><a href="#contact" class="navlinks rightwinglink leftfloat">Contact</a></li>
-            </ol>
-        </nav>
-        <!--About Me-->
-        <div id="profile">
+    <header>
+        <div class="container">
             <h1>Noraldine Aluso Okola</h1>
-            <p id="about">
-                Hello, My name is Noraldine. A skilled Software Engineer and IT Support Technician.
-            </p>
-            <img src="workdesk1.jpg" alt="" id="profileimage">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <main>
-        <!--Education-->
-        <div id="education">
-            <h2>Educational Background</h2>
-            <p>
-                I hold a degree in Bachelor of Technology (Business Information Technology) from the Technical University of Kenya.
-            </p>
-            <a href="" class="buttons">Download My CV</a>
-        </div>
-        <!--Interests-->
-        <div id="interests">
-            <h2>Interests</h2>
-            <dl>
-                <dt>Web Development</dt>
-                <dd>Exploring modern frameworks and best practices.</dd>
-                <dt>Mobile App Development</dt>
-                <dd>Learning mobile app development frameworks: dart and flutter.</dd>
-                <dt>Computer Support</dt>
-                <dd>Improving my computer support skills as well as keeping up with the lates techniques and computers.</dd>
-                <dt>Computer Programming</dt>
-                <dd>Ironing up my computer programming skills as well as exploring new techniques such as AI for software engineering.</dd>
-            </dl>
-        </div>
-        <!--Programming Languages-->
-        <div id="programming">
-            <h2>Programming Languages</h2>
-            <p>C</p>
-            <div class="container">
-                <div class="skill"></div>
-            </div>
 
-            <p>C++</p>
-            <div class="container">
-                <div class="skill" id="c"></div>
-            </div>
-
-            <p>JavaScript</p>
-            <div class="container">
-                <div class="skill"></div>
-            </div>
-
-            <p>Python</p>
-            <div class="container">
-                <div class="skill"></div>
-            </div>
-
-            <p>VB</p>
-            <div class="container">
-                <div class="skill" id="vb"></div>
-            </div>
-
-            <p>VB.net</p>
-            <div class="container">
-                <div class="skill"></div>
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hi, I'm Noraldine</h2>
+                <p>A passionate Software Developer and IT Support Technician.</p>
+                <a href="#projects" class="button">View My Work</a>
             </div>
         </div>
-        <!--Projects-->
-        <div id="projects">
-            <h2>Projects</h2>
-            <div id="plinks">
-                <a href="" class="navlinks leftwinglink">Software Engineer</a>
-                <a href="" class="navlinks rightwinglink">IT Support Technician</a>
-            </div>            
-            <h3>Library Management System</h3>
-            <h3>Python Calculator</h3>
-            <h3>HTML, CSS, JS Matching game</h3>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a dedicated professional with a dual passion for crafting robust software solutions and ensuring smooth technological operations. My journey in software development has equipped me with strong programming skills and a problem-solving mindset, allowing me to build efficient and user-friendly applications.</p>
+            <p>Concurrently, my background as an IT Support Technician has honed my ability to diagnose and resolve complex technical issues, manage systems, and provide excellent user assistance. I thrive on overcoming challenges and continuously learning new technologies to deliver high-quality results in both development and support roles.</p>
+            </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Software Development</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>C & C++</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Visual Basic & VB.net</li>
+                        <li>Database Management (SQL, MySQL)</li>
+                        <li>Version Control (Git, GitHub)</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>IT Support & Systems</h3>
+                    <ul>
+                        <li>Troubleshooting & Diagnosis</li>
+                        <li>Network Configuration & Management</li>
+                        <li>Operating Systems (Windows, Linux)</li>
+                        <li>Hardware & Software Installation</li>
+                        <li>Cybersecurity Basics</li>
+                        <li>Helpdesk Support</li>
+                        <li>System Administration</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <!--Contacts-->
-        <div id="contact">
-            <h2>Contact Me</h2>
-            <p>Do not hesitate to contact me; I am happy to respond to your questions as soon as possible.</p>
-            <form action="">
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name" class="input">
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" class="input">
-                <label for="message">Message: </label>
-                <textarea name="message" id="message" cols="100" rows="10"></textarea>
-                <input type="submit" value="SEND" class="submitbtn">
-            </form>
-            <p>OR</p><br>
-            <a href="" class="buttons email">Send me an email</a>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Library Management System</h3>
+                    <p>This project implements a database management system for a library using MySQL. The system is designed to track book inventory, author information, publisher details, genres, member information, and borrowing history. It provides a relational database structure to efficiently manage library operations.</p>
+                    <a href="https://github.com/ouinordine/wk8_Databases.git" target="_blank" class="button-project">View on GitHub</a>
+                    </div>
+                <div class="project-card">
+                    <h3>Project Title Two</h3>
+                    <p>A brief description of your second project. Highlight your role and key features.</p>
+                    <a href="https://github.com/yourusername/project-two" target="_blank" class="button-project">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project Title Three</h3>
+                    <p>A brief description of your third project. What problem did it solve? What did you learn?</p>
+                    <a href="https://github.com/yourusername/project-three" target="_blank" class="button-project">View on GitHub</a>
+                </div>
+                </div>
         </div>
-    </main>
-    </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>I'm always open to new opportunities and collaborations. Feel free to connect with me!</p>
+            <p>Email: <a href="mailto:alusonoraldine@gmail.com.com">alusonoraldine@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/ouinordine" target="_blank">github.com/ouinordine</a></p>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> N. A. Okola. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
