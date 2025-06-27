@@ -3,7 +3,7 @@
 
 Welcome to my **Portfolio!** 🎉  
 
-This README.md file provides a brief overview of what you will find in my portfolio website. 
+This README.md file provides a brief overview of what you will find in my portfolio website.   
 Let's go!!
 
 ---  
@@ -33,5 +33,5 @@ contact information incase one would like to reach out to me.
 
 ---
 
-Thank you for your time and attention
+Thank you for your time and attention   
 Noraldine Aluso Okola ✨
