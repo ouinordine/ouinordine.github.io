@@ -1,9 +1,10 @@
 # ouinordine.github.io
-## My personal portfolio website
+# My personal portfolio website
 
 Welcome to my **Portfolio!** 🎉  
 
-This README.md file provides a brief overview of what you will find in my portfolio website. Let's go!!
+This README.md file provides a brief overview of what you will find in my portfolio website. 
+Let's go!!
 
 ---  
 
@@ -27,10 +28,10 @@ This section includes links to my projects as well as their descriptions.
 
 
 ### 📬 Contact Me  
-This is the final section of the portfolio website and contains a contact form and various
-contact details for incase one would like to reach out to me.
+This is the final section of my portfolio website. It contains a contact form and various
+contact information incase one would like to reach out to me.
 
----   
+---
 
-Thank you for your time and attention   
-Noraldine Aluso Okola ✨   
+Thank you for your time and attention
+Noraldine Aluso Okola ✨
