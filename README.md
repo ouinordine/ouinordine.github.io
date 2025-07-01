@@ -1,4 +1,4 @@
-# ouinordine.github.io
+# [ouinordine.github.io](https://ouinordine.github.io/)
 # My personal portfolio website
 
 Welcome to my **Portfolio!** 🎉  
@@ -19,8 +19,8 @@ Here you will find a brief introduction about me, my passion, and what drives me
 This section contains details of my education and also includes a downloadable CV of myself.  
 
 
-### 💡 Interests  
-In this section, I get to share what excites me about tech and my professional interests.  
+### 💡 Interests and Skills
+In this section, I get to share what excites me about tech and my professional interests. I also share programming languages I am knowledgeable in.
 
 
 ### 🛠️ Projects  
